@@ -1,0 +1,59 @@
+html {
+    font-size: 8px;
+
+}
+
+/* Header */
+#header .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .container .sign-up {
+    width: 100%;
+    order: 1;
+}
+
+#header .container .sign-up a {
+    width: 100%;
+    margin: 1rem 0 0;
+    padding: 0.75rem 3.75rem;
+}
+
+/* Register */
+
+#register .container .register-form form {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#register .container .register-form input {
+    padding: 0.8rem 3rem;
+}
+
+#register .container .register-form button {
+    margin: 0 1.5rem;
+
+}
+
+#register {
+    position: inherit;
+}
+
+/* Contents Section */
+
+#contents .content-banners .banner {
+    flex: 50%;
+}
+
+/* Footer */
+#footer .store-title {
+    padding: 0;
+}
+
+#footer .store-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

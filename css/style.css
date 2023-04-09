@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url("./global.css");
+
+/* Header */
+#header {
+    background-color: var(--primary-color);
+}
+
+#header .header-logo {
+    width: 26.5rem;
+}
+
+#header .lang-icon {
+    width: 1.7rem;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+}
+
+#header .container .header-logo {
+    margin-right: auto;
+}
+
+.main-header .lang-select {
+    padding-left: 2rem;
+}
+
+.main-header .lang-select select {
+    appearance: none;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+}
+
+.lang-select::after {
+    content: "\25BC";
+}
+
+.main-header .nav-bar .lang-select * {
+    margin: 0 0.5rem;
+
+}
+
+/* Register Form */
+
+#register .container {
+    padding: 3rem 0 1.1rem;
+}
+
+#register .container .register-form form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#register .register-form form * {
+    flex: 1;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#register {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Contents Section */
+
+#contents .container {
+    padding: 3rem 0px 0px;
+}
+
+#contents .content-banners .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#contents .content-banners .banner {
+    flex: 25%;
+
+}
+
+#contents .content-banners .inner-banner {
+    position: relative;
+
+
+}
+
+.content-banners .banner a {
+    padding: 0;
+}
+
+.content-banners .banner .play-button {
+    width: 2rem;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.5rem;
+
+}
+
+
+/* Footer */
+
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#footer .container .devices-image {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footer .container .devices-image img {
+    flex: 40%;
+    width: 32rem;
+
+}
+
+#footer .container .devices-image .empty {
+    flex: 30%;
+}
+
+/* Store İmages */
+#footer .container .store-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .container .store-images img {
+    width: 14.8rem;
+}
+
+/* Social Media */
+#footer .container .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .container .social-media img {
+    width: 2.8rem;
+}
+
+#footer .container .help-center {
+    align-self: stretch;
+    text-align: center;
+    margin-bottom: 5.3rem;
+}
+
+#footer .container .help-center a {
+    font-size: 2rem;
+}
