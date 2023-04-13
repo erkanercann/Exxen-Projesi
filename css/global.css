@@ -198,8 +198,6 @@ ul {
 
 .form-input:focus {
     border: 2px solid var(--primary-color);
-    outline: 2px solid black;
-    outline-offset: 2px;
     outline: 1px solid var(--white-color);
     outline-offset: 2px;
     border-radius: 0.1rem;
