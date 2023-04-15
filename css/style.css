@@ -110,21 +110,12 @@
 
 }
 
-#footer .container .devices-image {
-    display: flex;
-    flex-direction: row;
-
-}
-
 #footer .container .devices-image img {
-    flex: 40%;
     width: 32rem;
 
 }
 
-#footer .container .devices-image .empty {
-    flex: 30%;
-}
+
 
 /* Store İmages */
 #footer .container .store-images {
